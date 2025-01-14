@@ -26,7 +26,7 @@ background-color: #1B1D1F;
 display: flex;
 flex-direction: column;
 align-items: center;
-transform: translateY(-11rem);
+transform: translateY(-15%);
 padding: 1rem;
 }
 .info{
@@ -118,4 +118,7 @@ display: flex;
   align-items: center;
   justify-content: space-between;
   color: #ED735D;
+}
+@media (max-width:650px) {
+  .list{transform: translateY(-2%);}
 }

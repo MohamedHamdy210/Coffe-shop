@@ -1,5 +1,5 @@
 import cover from "./assets/bg-cafe-lg.jpg";
-import List from './list';
+import List from "./List";
 function App() {
   
 
