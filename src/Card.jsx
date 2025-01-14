@@ -13,11 +13,11 @@ export default function Card({c}){
           {c.rating === null ? (
             <div className="star">
               <img src={star} />
-              <p>No ratings</p>
+              <p className="votes">No ratings</p>
             </div>
           ) : (
             <div className="star">
-              <img src={filled} /> <p className="votes">({c.votes} votes)</p>
+              <img src={filled} /><p>{c.rating}</p> <p className="votes">({c.votes} votes)</p>
             </div>
           )}
           <p>{c.available? "": "Sold out"}</p>
